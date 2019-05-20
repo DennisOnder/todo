@@ -46,8 +46,8 @@ func (t Todo) String() string {
 	return fmt.Sprintf("%c  %s (id: %d)", checkbox, t.Title, t.id)
 }
 
-// NewTodo returns a new todo item with the given title.
-func NewTodo(title string) {
+// AddTodo adds a new todo item with the given title.
+func AddTodo(title string) {
 	newTodo := Todo{Title: title}
 	newTodo.id = nextID
 	nextID++

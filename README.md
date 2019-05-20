@@ -13,8 +13,8 @@ import (
 )
 
 func main() {
-    todo.NewTodo("Buy milk")
-    todo.NewTodo("Fill out important documents")
+    todo.AddTodo("Buy milk")
+    todo.AddTodo("Fill out important documents")
 
     printTodos()
     // ☐  An older todo task created in an earlier session (id: 4)
