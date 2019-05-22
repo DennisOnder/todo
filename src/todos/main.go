@@ -9,7 +9,7 @@ import (
 var Todos []Todo
 var nextID int
 
-// Todo denotes a single todo item.
+// Todo denotes a single todo item
 type Todo struct {
 	id    int
 	Title string
