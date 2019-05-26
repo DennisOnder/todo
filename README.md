@@ -4,7 +4,7 @@ A simple todo app, created for learning purposes.
 
 # Usage
 
-> Create your main/entry file in the src/directory, and paste in the code below:
+> Create your main/entry file in the src/ directory, and paste in the code below:
 
 ```go
 package main
